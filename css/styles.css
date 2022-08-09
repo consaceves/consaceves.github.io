@@ -1,0 +1,81 @@
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.avatar {
+    max-width:100%;
+    height:auto;
+}
+
+#profile {
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-weight: 300;
+    color: #000000;
+    margin: 20px 0 10px 0;
+}
+
+#profile h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0,0,0,0.54);
+    margin: 0px 0 5px 0;
+}
+
+#profile .network-icon {
+    margin-top: 30px;
+}
+
+ul.social {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0 5px 0 5px;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-8 {
+    flex: 0 0 66.66666667%;
+    max-width: 66.66666667%;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
